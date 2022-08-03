@@ -1,0 +1,210 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --link-text-color: rgba(255, 255, 255, 0.6);
+  --primary-background-color: #f5f4fa;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--white-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+.accent {
+  color: var(--accent-text-color);
+}
+.logo,
+.accent {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+/* навігація */
+.list .list-nav {
+  color: var(--title-text-color);
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.list .list-nav:hover,
+.list .list-nav:focus {
+  color: var(--accent-text-color);
+}
+.current .list-nav {
+  color: var(--accent-text-color);
+}
+
+/* контакти */
+.contact a {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.contact a:hover,
+.contact a:focus {
+  color: var(--accent-text-color);
+}
+/* page 1 */
+
+/* герой */
+.hero {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  background-color: var(--secondary-background-color);
+}
+.btn {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+  border: none;
+  cursor: pointer;
+}
+/* cекція особливості */
+.title {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* секція чим ми займаємося */
+.caption {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-text-color);
+}
+/* наша команда */
+.section {
+  background-color: var(--primary-background-color);
+}
+.pic {
+  background-color: var(--white-text-color);
+}
+.subtitle {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.text {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* футер */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-accent {
+  color: var(--white-text-color);
+}
+.logo-accent,
+.accent {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-text-color);
+}
+.link {
+  color: var(--link-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+/* page 2 PORTFOLIO */
+
+/* кнопки */
+.buton-name {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  background-color: var(--primary-background-color);
+  color: var(--title-text-color);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.buton-name:hover,
+.buton-name:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
+
+/* cекція портфоліо */
+.subtitle-type {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+}

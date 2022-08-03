@@ -6,6 +6,7 @@
   --secondary-background-color: #2f303a;
   --link-text-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #f5f4fa;
+  --box-shadow-color: rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -77,6 +78,9 @@ ul {
 /* page 1 */
 
 /* герой */
+.section-hero {
+  background-color: var(--secondary-background-color);
+}
 .hero {
   font-family: "Roboto" sans-serif;
   font-style: normal;
@@ -86,7 +90,6 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: var(--white-text-color);
-  background-color: var(--secondary-background-color);
 }
 .btn {
   font-family: "Roboto" sans-serif;
@@ -94,6 +97,8 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
   background-color: var(--accent-text-color);
   color: var(--white-text-color);
   border: none;
@@ -189,7 +194,7 @@ ul {
   background-color: var(--primary-background-color);
   color: var(--title-text-color);
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -197,6 +202,7 @@ ul {
 .buton-name:focus {
   background-color: var(--accent-text-color);
   color: var(--white-text-color);
+  border-radius: 4px;
 }
 
 /* cекція портфоліо */
